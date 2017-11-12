@@ -1,0 +1,1341 @@
+
+
+Started GET "/" for ::1 at 2017-08-22 09:50:20 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (192.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (4689.6ms)
+Completed 200 OK in 4747ms (Views: 4721.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-96a1cbefba2066f7a3e85de9a655597a65e7514c6fa4c3168e6b2d7dd3bc9b77.css?body=1" for ::1 at 2017-08-22 09:50:26 +0200
+
+
+Started GET "/assets/spa-demo/layout.self-d25c4924f1b43a25b87675c444b8a38916f40b3ca43932573ce911076517a591.css?body=1" for ::1 at 2017-08-22 09:50:26 +0200
+
+
+Started GET "/assets/ui-cropper.self-2fcd832728183d292d440826f619d4c7ccf6313c7f2532db0b9498b7b963fd85.css?body=1" for ::1 at 2017-08-22 09:50:26 +0200
+
+
+Started GET "/assets/spa-demo/authn.self-6b5b16b055f6e2520494c95ccf0817511702da54430e9387f11c065624797d18.css?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/subjects.self-3b0bf893e05a03285562d9c7e4e989d8fb84cb7f60de9d1136265b57ab910404.css?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo.self-2c94351bbf49d4f12ace79a57649ed100e09fd2f712fc1f795a3177b793a7cd5.css?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/jquery2.self-25ca496239ae8641a09627c8aace5863e7676e465fbb4ce81bc7eb78c4d15627.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/bootstrap/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular/angular.self-55459d3bd6c820b82a84405c655eb594e8f13110f3bfb3c25711a3cc3510e952.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular-ui-router/angular-ui-router.self-8d1a567702decda3c48178b8db54b5b9dbe23f0f7b137aca5d7f2fa843efc7e1.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular-ui-router.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular-resource/angular-resource.self-5152cd6c6485841422d7562f1e4ba85eaf77ae70888988eee8155e8491754b87.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular-resource.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/angular-cookie/angular-cookie.self-0f7fb19686473accc00652b4579b0f6879dd9aaa777787de5643571af2251394.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/angular-cookie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ng-token-auth/ng-token-auth.self-8a84fb0d317281d076a73e2d7d236358fbdadc14512dba2ed5712479df6baf66.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ng-token-auth.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ng-file-upload-shim/ng-file-upload-shim.self-577f9e4dd86caa5f528ab6b1262125e7c916552e136e13b4e6b17b139f338671.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ng-file-upload-shim.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ng-file-upload/ng-file-upload.self-49489246d63a5d6be3390bf224092c8d04da729ddb16de1bec1a188e4119b6c7.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/app.module.self-fcad275ac4ee95243ffab2f985cbfd145f993a881c8d3701bfcb3a50d445177e.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ui-cropper/ui-cropper.self-85c8e7df7686eb038985f2f597211b571437445de33892ed367020f4c48192b5.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ui-cropper.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/ng-file-upload.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/app.router.self-c2a037b140ec6403d9622542f965a6e1e52b9e98f931c180f0cc121ab3bf9f7c.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/config/config.module.self-fb61978cab654da6791e6cdeb3b8ac130a9749f0c79bfc2b85619e5d830c5cf3.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn.module.self-94201ad4d145f8e9c34630710544feb32db4d7c7b4144da391ea0f874e407bbb.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn.config.self-5fdf43a46e96fb3687a5f316d06ba014a42fba4444b7f6eb536af318727a6041.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn.service.self-9dc407bcdecb7d56647f04af8fa7158e85f56be7fe499904cbb363399d6536bc.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/find_by_tag.self-0454e971b67855abf4f55324fbdd761e1571c20edd86fe186c44226e3501c4d8.css?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/whoami.service.self-cad8f30e795e9e0f517b27e443271727158c373463eb5d5ff2666bb7e103226d.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn_session/authn_session.component.self-9acfbc9477450960945c47de5069c780fe1af925762d721b8643aa4f662560d7.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/checkme.service.self-309c80d2d46044a1b926ed0c24b6775c1e7e992f01986dd12dd32cf3f95c234c.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/signup/signup.component.self-11fbe22a138b930f01508b8f0a9fb00815af23526b7a2eb809a858c1dc4b3c91.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authz/authz.module.self-19d7bf68079b93b3d25412ddc870beb58376c53022540536c4a083a19358f4b1.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn_check/authn_check.directive.self-fc694ac3a8a9aca7f446f5896df1fbe379eb10e59100076c12176078859f07cb.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/geoloc.module.self-894c5fc3b4bbb249ef644c17925097001d6a3f3662045440e49905bcf3e68f65.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authz/authz.service.self-26dff7d0804180011dcc0d137365d8f9f16b816732a14a166c84795c1e9755a1.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/map.service.self-3be34a852c90ecbd8bdd9af7fb6014589b8ab1f6ab870e8ca26794d37419f2a6.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/authz/base_policy.service.self-9b35e17fedebbd3d5831b833938a633ec3dbbf9444a6eab7428f63edc3c6db2f.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin.service.self-e4ae183374fbc7e20e379c169bba94779d14dc1c3a77c8b6aba31ccc749e5221.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/geocoder.service.self-1c054b376401e3ee48829d70531a524c4326a5c2da258e9166b3c53ee1a9d052.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/my_location.service.self-ab82dff1f3b362d2c56e9fe8548a0fd3129d129c4108c4034f0fe38b0488408a.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/layout.module.self-5816b38d8cbf0dcf6551cdfaaa99a17bd9db0a9c05574592f75bb8b5927ab623.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin_selector.component.self-0a9ea91e8e0fe9b1bd8d6302a6bbf278b0b2b2cc8a964935269c3e6b615add77.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/image_loader/data_utils.service.self-657a2bc91cdf63a4a88ed42089a649279e783737750f1cadf256a4b8db3075c6.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/image_query_size.service.self-e757bac824ec4dfad4c77a993d07f917a61da72d726874719b5d90c59a0e0994.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/image_viewer/image_viewer.component.self-bc8b8dc39d70bf551a70df87a42e0aa7b09c65f5df38615b2c2932a4aeab08ed.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/navbar/navbar.component.self-91b96ad395d7039934ddd70a99d5b9bc024cfd2221150838c32adaa3de00d723.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/areas/areas.component.self-9d434168e15e1135faf8cbe5654c81163c2c141efa5b3dc549c9cdf67e2f7d07.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/image_loader/image_loader.component.self-c5b319fc522332f3fb6e338f33522f9512c8877fb5964c3cca81717293f9311b.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/foos/foos.service.self-5989b1d2a164d465690373af54af0fd973d4d454714698a2d54d3bb75d6239cf.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/layout/tabs/tabs.component.self-ea887ae8366b9dd927434f670d81afcfc3ee6d7b035961d033b17b190070ec85.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/foos/foos.directive.self-8b7814c79079f85b4c514ef2f5fb6fd5d1db807fe7974ce79092df3e23bd842f.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/foos/foos.module.self-0fffb80852ad598ea5d565434a30d7dd9183f489c6ac4b3e93b7392c91d89665.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/images.service.self-325a6daad24381f9f8ff5256702d9edb28f66c0edd4469611a733d8de7708f7a.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/foos/foos.controller.self-e375756f2fbef4fa2ce046b0f9bba4329f581f552eb67f789e64ed7232254c8e.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/subjects/subjects.module.self-5fa291abf743e82a38b325fa8d542fe12ed0240d629bb8360ed6cb07810380ec.js?body=1" for ::1 at 2017-08-22 09:50:27 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/image_things.service.self-cc805716954e1b8ceb2f6138cf8a8a7f41cdfa25b9440c9f4f2dd8d4e44b3efe.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/images_authz.service.self-ed5dec88bc1a374d41ddc373ae082ddf2dc9ae970d6d7579dd479e57fdcb1b52.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/images.component.self-74860c01a60d137694fe6d7ba4bdb5327dcdf1c3dbebbf42129f6a54ebb9f46e.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/image_linkable_things.service.self-ff3701d9df0c8e18d3b5b7503b0d19041fc7ba249bae1a8612cb584a91494a8e.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/things/thing_images.service.self-bb793309bd4da75d8e9b6948908938ecd9820c49bc7b8dd0831779e3cd8ea315.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/images_authz.directive.self-5148f415b153cbe7676f5a3ab05adba2cef9eea1a34660e039dc891632cafac1.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/things/things_authz.directive.self-d067ff64976ea5d39e93c5c836f5e7fe3f7c715aa96419d8a3786d9048a759ba.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/things/things.service.self-2467671b4b30f4fbd8e469cc5d0fbcfa9f3a397022de1ed6aaff8e883db4a1b8.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/tags/tags.service.self-060a168ba76a815fdf22c85adb2b9b61b4d017016f0fcbd4920af824fa949ae1.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/things/things_authz.service.self-ff1b77e2ad171e6fe7409033809e8bf77570943aef807dd4ca0d5c0290845e04.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/tags/tags_authz.service.self-8cbc53b79bf8fbe9e768c31e681515868c1fa6e297503e7103054449e4c4637e.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/things/things.component.self-79251c552a62c3835bfdad90b5a055bc52f7c27c2f6220a8ac708402034be578.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_subjects/current_subjects.service.self-57aafd2e7755adc5dbc37f20f68e7c48f919a2ddcfb18341a7213a48a3544181.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/tags/tags.component.self-b191cf814d2f9572b6961652c9ce9a8bae45f0b5d7426f93e7fedad10200b703.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_images/current_images.component.self-627332e78ca92cf39b3f96f7d3b1e20e62103d9e531351029ca9c96a10d55c3f.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_tags/current_tags.component.self-fb76dab4f0a2065d4fbb8e676da8de01f4836a28f429743ece16870a4cd8a9fa.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_subjects/current_subjects.component.self-d0bee8b19ff9557435ecbf5ee85bd26e50e3cee6ea1d6b77c5e84573e467c7aa.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo.self-d29e8c720b1731288c66ea26d1c2f7503f153f6762c38642f43d2c01369f39be.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_things/current_things.component.self-3f8a37d91a1810fd1580a200c50d9d19b7cb161b4088ed7f492c62be95bb90e7.js?body=1" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/layout/navbar/navbar-ad545c8dce7a952ed56a6009af4dda8bbe096d055dd789d15809f06cb7e7137e.html" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin_selector-4e5620371d52202d514590fd0f99333b8c3c61fc81e44e51397650c6107ba2e6.html" for ::1 at 2017-08-22 09:50:28 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn_session/authn_session-febc3c956a8a908d42a91c083d0e8ce6ca7bf3bbe676f7c288cd2adaabd9e8f4.html" for ::1 at 2017-08-22 09:50:28 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (24.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'foos'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.5ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'images'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (13.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'roles'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.4ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'tags'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'thing_images'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'thing_tags'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'things'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+
+
+Started GET "/" for ::1 at 2017-08-22 09:51:04 +0200
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (729.7ms)
+Completed 200 OK in 782ms (Views: 760.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo/layout/navbar/navbar-ad545c8dce7a952ed56a6009af4dda8bbe096d055dd789d15809f06cb7e7137e.html" for ::1 at 2017-08-22 09:51:06 +0200
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin_selector-4e5620371d52202d514590fd0f99333b8c3c61fc81e44e51397650c6107ba2e6.html" for ::1 at 2017-08-22 09:51:06 +0200
+
+
+Started GET "/assets/spa-demo/authn/authn_session/authn_session-febc3c956a8a908d42a91c083d0e8ce6ca7bf3bbe676f7c288cd2adaabd9e8f4.html" for ::1 at 2017-08-22 09:51:06 +0200
+
+
+Started GET "/assets/spa-demo/pages/signup_page-b1638fd4276306af4f690eb811ce17b344dbb7e45fbf040296585dd07072c18e.html" for ::1 at 2017-08-22 09:51:15 +0200
+
+
+Started GET "/assets/spa-demo/authn/signup/signup-ee18d84ab328fa5c89abd4cc8a93b46aceda8c9b979285e6bb6065d17746e507.html" for ::1 at 2017-08-22 09:51:15 +0200
+
+
+Started POST "/auth" for ::1 at 2017-08-22 09:51:54 +0200
+Processing by DeviseTokenAuth::RegistrationsController#create as HTML
+  Parameters: {"email"=>"bilha360@yahoo.com", "name"=>"bilha", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "confirm_success_url"=>"http://localhost:3000/#/signup", "config_name"=>"default", "registration"=>{"email"=>"bilha360@yahoo.com", "name"=>"bilha", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "confirm_success_url"=>"http://localhost:3000/#/signup", "config_name"=>"default"}}
+Unpermitted parameters: confirm_success_url, config_name, registration
+Unpermitted parameters: confirm_success_url, config_name, registration
+Unpermitted parameters: confirm_success_url, config_name, registration
+  [1m[35m (39.8ms)[0m  BEGIN
+  [1m[36m (67.4ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "bilha360@yahoo.com"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 350ms (Views: 0.3ms | ActiveRecord: 108.1ms)
+
+
+Started POST "/auth" for ::1 at 2017-08-22 09:52:11 +0200
+Processing by DeviseTokenAuth::RegistrationsController#create as HTML
+  Parameters: {"email"=>"bilha360@yahoo.com", "name"=>"bilha", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "confirm_success_url"=>"http://localhost:3000/#/signup", "config_name"=>"default", "errors"=>{"password"=>"[FILTERED]", "full_messages"=>["Password is too short (minimum is 8 characters)"]}, "registration"=>{"email"=>"bilha360@yahoo.com", "name"=>"bilha", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "confirm_success_url"=>"http://localhost:3000/#/signup", "config_name"=>"default", "errors"=>{"password"=>"[FILTERED]", "full_messages"=>["Password is too short (minimum is 8 characters)"]}}}
+Unpermitted parameters: confirm_success_url, config_name, errors, registration
+Unpermitted parameters: confirm_success_url, config_name, errors, registration
+Unpermitted parameters: confirm_success_url, config_name, errors, registration
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2  [["provider", "email"], ["email", "bilha360@yahoo.com"]]
+  [1m[36mSQL (47.2ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "name", "tokens", "uid", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "bilha360@yahoo.com"], ["encrypted_password", "$2a$10$lHfxGLAbB4BwH/2jD91vEeczJUuWqUfJlfGRP081iTzG8OrvIMglW"], ["name", "bilha"], ["tokens", "{}"], ["uid", "bilha360@yahoo.com"], ["created_at", "2017-08-22 07:52:11.642054"], ["updated_at", "2017-08-22 07:52:11.642054"]]
+  [1m[35m (18.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.2ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$JglATUbNyX5VOYfRMkom5Oi5zz.QG8oxZ0p3KyekrQCjJKQgQ60Lm\",\"expiry\":1504597931}}"], ["updated_at", "2017-08-22 07:52:11.810673"], ["id", 2]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 2]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$kFr/vCNnr7V3gtRvQfbnO.w3D0vFKU3XO.HcJaWg52/O3H1KdvyNa\",\"expiry\":1504597931,\"last_token\":\"$2a$10$JglATUbNyX5VOYfRMkom5Oi5zz.QG8oxZ0p3KyekrQCjJKQgQ60Lm\",\"updated_at\":\"2017-08-22T09:52:11.949+02:00\"}}"], ["updated_at", "2017-08-22 07:52:11.950445"], ["id", 2]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 379ms (Views: 0.3ms | ActiveRecord: 93.5ms)
+
+
+Started GET "/assets/spa-demo/pages/subjects_page-76becdc945ee98bc49da8bf92f471487028754b26e3380116c9739ec7b653c20.html" for ::1 at 2017-08-22 09:52:11 +0200
+
+
+Started GET "/assets/spa-demo/layout/areas/areas-45971bb1612786dff04e16f24d7bb7b0879eda0e40650ed944ef3a49bd5f1f69.html" for ::1 at 2017-08-22 09:52:11 +0200
+
+
+Started GET "/assets/spa-demo/layout/areas/area-ddcba5b9ee7dcdd3d6faa7a856059182ba333878bc6f28e3d718e7fdc8edf994.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/spa-demo/layout/tabs/tabs-ae22c495dbfb917966bdc4a4939c8134c8058c39d6a6b37dcbe581cd6627edca.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/spa-demo/layout/tabs/tab-ca64ac655f93bea43770de6133d6373f585d80bb96647aa695c53e630733e299.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_things/current_things-25d9e018e4fd7262fd79bc02fc9731841a43de0cc6e7519f632c3d09547d4806.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_images/current_images-c3753bab2a231eada127c95394e4d053ead90a31ff2bc130b30f06e10868eaf9.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_images/current_image_viewer-6e2b1180de5e34285509998cd11d2573db371feeaab5cd7665b02c8dd1f405bf.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/spa-demo/subjects/current_things/current_thing_info-2e24ad465c87f9b898c8e540dd72f2317eb3bc1e2fd98a79b61b8fa9ebb12028.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/api/subjects?lat=39.28583496489344&lng=-76.61183685064316&order=ASC" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/api/subjects?lat=39.28583496489344&lng=-76.61183685064316&order=ASC&subject=thing" for ::1 at 2017-08-22 09:52:12 +0200
+Processing by ThingImagesController#subjects as JSON
+  Parameters: {"lat"=>"39.28583496489344", "lng"=>"-76.61183685064316", "order"=>"ASC"}
+Processing by ThingImagesController#subjects as JSON
+  Parameters: {"lat"=>"39.28583496489344", "lng"=>"-76.61183685064316", "order"=>"ASC", "subject"=>"thing"}
+  [1m[35m (322.6ms)[0m  select max(modified) as last_modified from (
+select max(updated_at) as modified from things
+ union
+select max(updated_at) as modified from images
+ union
+select max(updated_at) as modified from thing_images
+) as x
+  [1m[35m (324.6ms)[0m  select max(modified) as last_modified from (
+select max(updated_at) as modified from things
+ union
+select max(updated_at) as modified from images
+ union
+select max(updated_at) as modified from thing_images
+) as x
+  [1m[36mThingImage Load (95.8ms)[0m  [1mSELECT thing_images.*, images.id as image_id, images.lng, images.lat, things.name as thing_name, images.caption as image_caption FROM "thing_images" right outer join images on images.id = thing_images.image_id left outer join things on things.id = thing_images.thing_id WHERE (images.lat IS NOT NULL AND images.lng IS NOT NULL)  ORDER BY 
+          (ACOS(least(1,COS(0.6856671695325014)*COS(-1.3371287990444463)*COS(RADIANS(images.lat))*COS(RADIANS(images.lng))+
+          COS(0.6856671695325014)*SIN(-1.3371287990444463)*COS(RADIANS(images.lat))*SIN(RADIANS(images.lng))+
+          SIN(0.6856671695325014)*SIN(RADIANS(images.lat))))*3963.1899999999996)
+          ASC[0m
+  [1m[36mThingImage Load (0.6ms)[0m  [1mSELECT thing_images.*, images.id as image_id, images.lng, images.lat, things.name as thing_name, images.caption as image_caption FROM "thing_images" right outer join images on images.id = thing_images.image_id left outer join things on things.id = thing_images.thing_id WHERE (images.lat IS NOT NULL AND images.lng IS NOT NULL) AND "thing_images"."priority" = $1  ORDER BY 
+          (ACOS(least(1,COS(0.6856671695325014)*COS(-1.3371287990444463)*COS(RADIANS(images.lat))*COS(RADIANS(images.lng))+
+          COS(0.6856671695325014)*SIN(-1.3371287990444463)*COS(RADIANS(images.lat))*SIN(RADIANS(images.lng))+
+          SIN(0.6856671695325014)*SIN(RADIANS(images.lat))))*3963.1899999999996)
+          ASC[0m  [["priority", 0]]
+  Rendered thing_images/index.json.jbuilder (183.1ms)
+  Rendered thing_images/index.json.jbuilder (177.6ms)
+Completed 200 OK in 582ms (Views: 90.7ms | ActiveRecord: 421.1ms)
+Completed 200 OK in 582ms (Views: 180.7ms | ActiveRecord: 324.0ms)
+
+
+
+
+Started GET "/authn/whoami" for ::1 at 2017-08-22 09:52:12 +0200
+Started GET "/assets/spa-demo/layout/image_viewer/image_viewer-be2bbb01fc8ab65297909c228423a1f0e2563bf5794c3e1b3f426ff9fa562d96.html" for ::1 at 2017-08-22 09:52:12 +0200
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2017-08-22 09:52:12 +0200
+Processing by AuthnController#whoami as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "bilha360@yahoo.com"]]
+  [1m[36m (43.0ms)[0m  [1mSELECT "roles"."role_name", "roles"."mname" FROM "roles" WHERE "roles"."user_id" = $1 AND (mid is null)[0m  [["user_id", 2]]
+  Rendered authn/whoami.json.jbuilder (0.6ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 2]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$kFr/vCNnr7V3gtRvQfbnO.w3D0vFKU3XO.HcJaWg52/O3H1KdvyNa\",\"expiry\":1504597931,\"last_token\":\"$2a$10$JglATUbNyX5VOYfRMkom5Oi5zz.QG8oxZ0p3KyekrQCjJKQgQ60Lm\",\"updated_at\":\"2017-08-22T09:52:13.016+02:00\"}}"], ["updated_at", "2017-08-22 07:52:13.017647"], ["id", 2]]
+  [1m[36m (39.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 175ms (Views: 6.1ms | ActiveRecord: 84.3ms)
+
+
+Started GET "/api/geocoder/positions?lat=45.5416522&lng=11.516363799999999" for ::1 at 2017-08-22 09:52:16 +0200
+Processing by GeocoderController#positions as JSON
+  Parameters: {"lat"=>"45.5416522", "lng"=>"11.516363799999999"}
+Google geocoding. latlng: [45.5416522, 11.516363799999999], args []
+Google geocoding. Result: %7B%0A+++%22results%22+%3A+%5B%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2228%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2228%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22street_number%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Via+Niccol%C3%B2+Paganini%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Via+N.+Paganini%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22route%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Provincia+di+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Via+N.+Paganini%2C+28%2C+36100+Vicenza+VI%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5414891%2C%0A+++++++++++++++%22lng%22+%3A+11.5161351%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22ROOFTOP%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.5428380802915%2C%0A++++++++++++++++++%22lng%22+%3A+11.5174840802915%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.5401401197085%2C%0A++++++++++++++++++%22lng%22+%3A+11.5147861197085%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJsztmxloxf0cRRPx00aEmNPI%22%2C%0A+++++++++%22types%22+%3A+%5B+%22street_address%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6039311%2C%0A++++++++++++++++++%22lng%22+%3A+11.6108189%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4965127%2C%0A++++++++++++++++++%22lng%22+%3A+11.4910099%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5454787%2C%0A+++++++++++++++%22lng%22+%3A+11.5354214%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6039311%2C%0A++++++++++++++++++%22lng%22+%3A+11.6108189%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4965127%2C%0A++++++++++++++++++%22lng%22+%3A+11.4910099%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJb1HS5H0xf0cRvECEC5PAjmo%22%2C%0A+++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.60886%2C%0A++++++++++++++++++%22lng%22+%3A+11.615423%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.48318099999999%2C%0A++++++++++++++++++%22lng%22+%3A+11.48647%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5361903%2C%0A+++++++++++++++%22lng%22+%3A+11.5610445%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.60886%2C%0A++++++++++++++++++%22lng%22+%3A+11.615423%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.48318099999999%2C%0A++++++++++++++++++%22lng%22+%3A+11.48647%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJOw86zn8xf0cRAH2gaooJBxw%22%2C%0A+++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6088582%2C%0A++++++++++++++++++%22lng%22+%3A+11.6154534%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4831738%2C%0A++++++++++++++++++%22lng%22+%3A+11.4864984%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5361903%2C%0A+++++++++++++++%22lng%22+%3A+11.5610445%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6088582%2C%0A++++++++++++++++++%22lng%22+%3A+11.6154534%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4831738%2C%0A++++++++++++++++++%22lng%22+%3A+11.4864984%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJOw86zn8xf0cRcFKRFYcJBwQ%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.0133136%2C%0A++++++++++++++++++%22lng%22+%3A+11.8361814%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.2553201%2C%0A++++++++++++++++++%22lng%22+%3A+11.1358708%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.6983995%2C%0A+++++++++++++++%22lng%22+%3A+11.5661465%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.0133136%2C%0A++++++++++++++++++%22lng%22+%3A+11.8361814%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.2553201%2C%0A++++++++++++++++++%22lng%22+%3A+11.1358708%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJ6bkyp9bKeEcR4H6QFYcJBwM%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Veneto%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.6804752%2C%0A++++++++++++++++++%22lng%22+%3A+13.1009766%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+44.791218%2C%0A++++++++++++++++++%22lng%22+%3A+10.6229634%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.76233329999999%2C%0A+++++++++++++++%22lng%22+%3A+11.690976%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.6804752%2C%0A++++++++++++++++++%22lng%22+%3A+13.1009766%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+44.791218%2C%0A++++++++++++++++++%22lng%22+%3A+10.6229634%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJd7cEzPHXeEcRcHyQFYcJBwE%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+47.092%2C%0A++++++++++++++++++%22lng%22+%3A+18.7975999%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+35.4897%2C%0A++++++++++++++++++%22lng%22+%3A+6.6267201%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+41.87194%2C%0A+++++++++++++++%22lng%22+%3A+12.56738%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+47.092%2C%0A++++++++++++++++++%22lng%22+%3A+18.7975999%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+35.4897%2C%0A++++++++++++++++++%22lng%22+%3A+6.6267201%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJA9KNRIL-1BIRb15jJFz1LOI%22%2C%0A+++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++%7D%0A+++%5D%2C%0A+++%22status%22+%3A+%22OK%22%0A%7D%0A
+Completed 200 OK in 1165ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo/geoloc/markers/marker-red-32x44-9c7ac81f031105cf64436e4cc95ddfab1e541975bf90571237c1b3b9adb4a689.png" for ::1 at 2017-08-22 09:52:17 +0200
+
+
+Started GET "/assets/spa-demo/pages/images_page-c4165c503ad0da133576deeab857e21d45419e57c1a32903cde6f5444a44f1af.html" for ::1 at 2017-08-22 09:52:49 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/image_editor-1f7b544a166000ac21ff5e8acf8def76bb45b1977876f19d186072b4c465356a.html" for ::1 at 2017-08-22 09:52:49 +0200
+
+
+Started GET "/assets/spa-demo/subjects/images/image_selector-55a921ea53ce3098c413eca2980a38f72483d054842d70b1f17fa5e4934bc3f2.html" for ::1 at 2017-08-22 09:52:49 +0200
+
+
+Started GET "/assets/spa-demo/layout/image_loader/image_loader-f6aa9347e073adcc17aff4acbda637793dc14d0832b2b204861f2d1ce3fda0a1.html" for ::1 at 2017-08-22 09:52:49 +0200
+
+
+Started GET "/api/images" for ::1 at 2017-08-22 09:52:49 +0200
+Processing by ImagesController#index as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "bilha360@yahoo.com"]]
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT Images.*, r.role_name FROM "images" left join Roles r on r.mname='Image' and r.mid=Images.id and r.user_id =2[0m
+  Rendered images/index.json.jbuilder (0.3ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 2]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$7pTXkqC5NCZlgot.2qHmte1xlFjEnHyXkRGPcRJwbc8kJOrM2UAXS\",\"expiry\":1504597969,\"last_token\":\"$2a$10$kFr/vCNnr7V3gtRvQfbnO.w3D0vFKU3XO.HcJaWg52/O3H1KdvyNa\",\"updated_at\":\"2017-08-22T09:52:49.506+02:00\"}}"], ["updated_at", "2017-08-22 07:52:49.507796"], ["id", 2]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 87ms (Views: 5.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/spa-demo/pages/tags_page-d962802a8971b2d343a7c841a946d2462f23b254cf0c0508cf6870ba2c3abd22.html" for ::1 at 2017-08-22 09:52:57 +0200
+
+
+Started GET "/assets/spa-demo/subjects/tags/tag_form-49940602a836779bafcf44b2b2242dfdb7b9e0770619c442d8c3a7559a2a57bf.html" for ::1 at 2017-08-22 09:52:57 +0200
+
+
+Started GET "/assets/spa-demo/subjects/tags/taglist-ea696c573c0f644757373b07a021fc52d824427c1ad229fac1f93fb81b5528ea.html" for ::1 at 2017-08-22 09:52:57 +0200
+
+
+Started GET "/api/tags" for ::1 at 2017-08-22 09:52:57 +0200
+Processing by TagsController#index as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "bilha360@yahoo.com"]]
+  [1m[36mTag Load (40.7ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 2]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$2udR4a0fdkgtbIUg4aDZyO06zivphS7RJpNvDqYk0NW6TNi2IC.ae\",\"expiry\":1504597977,\"last_token\":\"$2a$10$7pTXkqC5NCZlgot.2qHmte1xlFjEnHyXkRGPcRJwbc8kJOrM2UAXS\",\"updated_at\":\"2017-08-22T09:52:57.944+02:00\"}}"], ["updated_at", "2017-08-22 07:52:57.945360"], ["id", 2]]
+  [1m[36m (21.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 288ms (Views: 0.9ms | ActiveRecord: 64.0ms)
+
+
+Started GET "/api/geocoder/positions?lat=45.5416441&lng=11.516394199999999" for ::1 at 2017-08-22 09:53:05 +0200
+Processing by GeocoderController#positions as JSON
+  Parameters: {"lat"=>"45.5416441", "lng"=>"11.516394199999999"}
+Google geocoding. latlng: [45.5416441, 11.516394199999999], args []
+Google geocoding. Result: %7B%0A+++%22results%22+%3A+%5B%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2228%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2228%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22street_number%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Via+Niccol%C3%B2+Paganini%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Via+N.+Paganini%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22route%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Provincia+di+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Via+N.+Paganini%2C+28%2C+36100+Vicenza+VI%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5414891%2C%0A+++++++++++++++%22lng%22+%3A+11.5161351%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22ROOFTOP%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.5428380802915%2C%0A++++++++++++++++++%22lng%22+%3A+11.5174840802915%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.5401401197085%2C%0A++++++++++++++++++%22lng%22+%3A+11.5147861197085%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJsztmxloxf0cRRPx00aEmNPI%22%2C%0A+++++++++%22types%22+%3A+%5B+%22street_address%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6039311%2C%0A++++++++++++++++++%22lng%22+%3A+11.6108189%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4965127%2C%0A++++++++++++++++++%22lng%22+%3A+11.4910099%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5454787%2C%0A+++++++++++++++%22lng%22+%3A+11.5354214%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6039311%2C%0A++++++++++++++++++%22lng%22+%3A+11.6108189%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4965127%2C%0A++++++++++++++++++%22lng%22+%3A+11.4910099%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJb1HS5H0xf0cRvECEC5PAjmo%22%2C%0A+++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.60886%2C%0A++++++++++++++++++%22lng%22+%3A+11.615423%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.48318099999999%2C%0A++++++++++++++++++%22lng%22+%3A+11.48647%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5361903%2C%0A+++++++++++++++%22lng%22+%3A+11.5610445%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.60886%2C%0A++++++++++++++++++%22lng%22+%3A+11.615423%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.48318099999999%2C%0A++++++++++++++++++%22lng%22+%3A+11.48647%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJOw86zn8xf0cRAH2gaooJBxw%22%2C%0A+++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6088582%2C%0A++++++++++++++++++%22lng%22+%3A+11.6154534%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4831738%2C%0A++++++++++++++++++%22lng%22+%3A+11.4864984%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5361903%2C%0A+++++++++++++++%22lng%22+%3A+11.5610445%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6088582%2C%0A++++++++++++++++++%22lng%22+%3A+11.6154534%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4831738%2C%0A++++++++++++++++++%22lng%22+%3A+11.4864984%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJOw86zn8xf0cRcFKRFYcJBwQ%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.0133136%2C%0A++++++++++++++++++%22lng%22+%3A+11.8361814%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.2553201%2C%0A++++++++++++++++++%22lng%22+%3A+11.1358708%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.6983995%2C%0A+++++++++++++++%22lng%22+%3A+11.5661465%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.0133136%2C%0A++++++++++++++++++%22lng%22+%3A+11.8361814%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.2553201%2C%0A++++++++++++++++++%22lng%22+%3A+11.1358708%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJ6bkyp9bKeEcR4H6QFYcJBwM%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Veneto%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.6804752%2C%0A++++++++++++++++++%22lng%22+%3A+13.1009766%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+44.791218%2C%0A++++++++++++++++++%22lng%22+%3A+10.6229634%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.76233329999999%2C%0A+++++++++++++++%22lng%22+%3A+11.690976%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.6804752%2C%0A++++++++++++++++++%22lng%22+%3A+13.1009766%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+44.791218%2C%0A++++++++++++++++++%22lng%22+%3A+10.6229634%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJd7cEzPHXeEcRcHyQFYcJBwE%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+47.092%2C%0A++++++++++++++++++%22lng%22+%3A+18.7975999%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+35.4897%2C%0A++++++++++++++++++%22lng%22+%3A+6.6267201%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+41.87194%2C%0A+++++++++++++++%22lng%22+%3A+12.56738%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+47.092%2C%0A++++++++++++++++++%22lng%22+%3A+18.7975999%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+35.4897%2C%0A++++++++++++++++++%22lng%22+%3A+6.6267201%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJA9KNRIL-1BIRb15jJFz1LOI%22%2C%0A+++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++%7D%0A+++%5D%2C%0A+++%22status%22+%3A+%22OK%22%0A%7D%0A
+Completed 200 OK in 439ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo/pages/authn_page-288994ebfeb68329d2faf25b68a3af8b47f653bdf7b94d270ff0fecb39691380.html" for ::1 at 2017-08-22 09:53:10 +0200
+
+
+Started GET "/authn/whoami" for ::1 at 2017-08-22 09:53:15 +0200
+Processing by AuthnController#whoami as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "bilha360@yahoo.com"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT "roles"."role_name", "roles"."mname" FROM "roles" WHERE "roles"."user_id" = $1 AND (mid is null)[0m  [["user_id", 2]]
+  Rendered authn/whoami.json.jbuilder (0.5ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 2]]
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$Rd1Rh7giu7micZ95wUnx2OHAbklx5eFWFkKGmFXGA7UGV7Epl278m\",\"expiry\":1504597995,\"last_token\":\"$2a$10$2udR4a0fdkgtbIUg4aDZyO06zivphS7RJpNvDqYk0NW6TNi2IC.ae\",\"updated_at\":\"2017-08-22T09:53:15.636+02:00\"}}"], ["updated_at", "2017-08-22 07:53:15.637997"], ["id", 2]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 240ms (Views: 5.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/authn/checkme" for ::1 at 2017-08-22 09:53:17 +0200
+Processing by AuthnController#checkme as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "bilha360@yahoo.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 2]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"jTaFo4VtIwXdcaxZKjQAKA\":{\"token\":\"$2a$10$Rd1Rh7giu7micZ95wUnx2OHAbklx5eFWFkKGmFXGA7UGV7Epl278m\",\"expiry\":1504597995,\"last_token\":\"$2a$10$2udR4a0fdkgtbIUg4aDZyO06zivphS7RJpNvDqYk0NW6TNi2IC.ae\",\"updated_at\":\"2017-08-22T09:53:17.857+02:00\"}}"], ["updated_at", "2017-08-22 07:53:17.858276"], ["id", 2]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Completed 200 OK in 68ms (Views: 0.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/geocoder/positions?lat=45.5416411&lng=11.516385699999999" for ::1 at 2017-08-22 09:53:28 +0200
+Processing by GeocoderController#positions as JSON
+  Parameters: {"lat"=>"45.5416411", "lng"=>"11.516385699999999"}
+Completed 200 OK in 31ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subjects?distance=true&lat=45.5414891&lng=11.5161351&order=ASC" for ::1 at 2017-08-22 09:53:28 +0200
+
+
+Started GET "/api/subjects?distance=true&lat=45.5414891&lng=11.5161351&order=ASC&subject=thing" for ::1 at 2017-08-22 09:53:28 +0200
+Processing by ThingImagesController#subjects as JSON
+Processing by ThingImagesController#subjects as JSON
+  Parameters: {"distance"=>"true", "lat"=>"45.5414891", "lng"=>"11.5161351", "order"=>"ASC"}
+  Parameters: {"distance"=>"true", "lat"=>"45.5414891", "lng"=>"11.5161351", "order"=>"ASC", "subject"=>"thing"}
+  [1m[35m (0.5ms)[0m  select max(modified) as last_modified from (
+select max(updated_at) as modified from things
+ union
+select max(updated_at) as modified from images
+ union
+select max(updated_at) as modified from thing_images
+) as x
+  [1m[36m (0.5ms)[0m  [1mselect max(modified) as last_modified from (
+select max(updated_at) as modified from things
+ union
+select max(updated_at) as modified from images
+ union
+select max(updated_at) as modified from thing_images
+) as x[0m
+  [1m[35mThingImage Load (0.9ms)[0m  SELECT thing_images.*, images.id as image_id, images.lng, images.lat, things.name as thing_name, images.caption as image_caption, -1.0 as distance FROM "thing_images" right outer join images on images.id = thing_images.image_id left outer join things on things.id = thing_images.thing_id WHERE (images.lat IS NOT NULL AND images.lng IS NOT NULL)  ORDER BY 
+          (ACOS(least(1,COS(0.7948489310561091)*COS(0.2009944745994864)*COS(RADIANS(images.lat))*COS(RADIANS(images.lng))+
+          COS(0.7948489310561091)*SIN(0.2009944745994864)*COS(RADIANS(images.lat))*SIN(RADIANS(images.lng))+
+          SIN(0.7948489310561091)*SIN(RADIANS(images.lat))))*3963.1899999999996)
+          ASC
+  [1m[36mThingImage Load (0.4ms)[0m  [1mSELECT thing_images.*, images.id as image_id, images.lng, images.lat, things.name as thing_name, images.caption as image_caption, -1.0 as distance FROM "thing_images" right outer join images on images.id = thing_images.image_id left outer join things on things.id = thing_images.thing_id WHERE (images.lat IS NOT NULL AND images.lng IS NOT NULL) AND "thing_images"."priority" = $1  ORDER BY 
+          (ACOS(least(1,COS(0.7948489310561091)*COS(0.2009944745994864)*COS(RADIANS(images.lat))*COS(RADIANS(images.lng))+
+          COS(0.7948489310561091)*SIN(0.2009944745994864)*COS(RADIANS(images.lat))*SIN(RADIANS(images.lng))+
+          SIN(0.7948489310561091)*SIN(RADIANS(images.lat))))*3963.1899999999996)
+          ASC[0m  [["priority", 0]]
+  Rendered thing_images/index.json.jbuilder (0.1ms)
+  Rendered thing_images/index.json.jbuilder (0.1ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.9ms)
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 13:04:00 +0100
+
+ActiveRecord::NoDatabaseError (FATAL:  database "capstone_demoapp_development" does not exist
+):
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:661:in `rescue in connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.6) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/josembi/.rbenv/versions/2.3.1/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/josembi/.rbenv/versions/2.3.1/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack-cors (0.4.1) lib/rack/cors.rb:81:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+  puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+  puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+  puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+
+  Rendered /Users/josembi/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /Users/josembi/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/josembi/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/josembi/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.4ms)
+  [1m[36m (4.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (57.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateFoos (20161202054453)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (39.7ms)[0m  [1mCREATE TABLE "foos" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20161202054453"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddFooNameConstraint (20161222170032)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.0ms)[0m  [1mALTER TABLE "foos" ALTER COLUMN "name" TYPE character varying[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "foos" ALTER "name" SET NOT NULL
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20161222170032"]]
+  [1m[35m (14.6ms)[0m  COMMIT
+Migrating to DeviseTokenAuthCreateUsers (20161230152654)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.9ms)[0m  CREATE TABLE "users" ("id" serial primary key, "provider" character varying DEFAULT 'email' NOT NULL, "uid" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying, "last_sign_in_ip" character varying, "confirmation_token" character varying, "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying, "name" character varying, "nickname" character varying, "image" character varying, "email" character varying, "tokens" json, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (0.9ms)[0m  [1mCREATE  INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX  "index_users_on_uid_and_provider" ON "users"  ("uid", "provider")
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20161230152654"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateThingImages (20170102235241)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (5.3ms)[0m  [1mCREATE TABLE "images" ("id" serial primary key, "caption" character varying, "creator_id" integer NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (3.8ms)[0m  CREATE TABLE "things" ("id" serial primary key, "name" character varying NOT NULL, "description" text, "notes" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "thing_images" ("id" serial primary key, "image_id" integer NOT NULL, "thing_id" integer NOT NULL, "priority" integer DEFAULT 5 NOT NULL, "creator_id" integer NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE  INDEX  "index_thing_images_on_image_id" ON "thing_images"  ("image_id")
+  [1m[36m (1.1ms)[0m  [1mCREATE  INDEX  "index_thing_images_on_thing_id" ON "thing_images"  ("thing_id")[0m
+  [1m[35m (4.6ms)[0m  ALTER TABLE "thing_images" ADD CONSTRAINT "fk_rails_f946735fdd"
+FOREIGN KEY ("image_id")
+  REFERENCES "images" ("id")
+
+  [1m[36m (1.3ms)[0m  [1mALTER TABLE "thing_images" ADD CONSTRAINT "fk_rails_016d82358c"
+FOREIGN KEY ("thing_id")
+  REFERENCES "things" ("id")
+[0m
+  [1m[35m (1.1ms)[0m  CREATE  INDEX  "index_images_on_creator_id" ON "images"  ("creator_id")
+  [1m[36m (1.1ms)[0m  [1mCREATE  INDEX  "index_things_on_name" ON "things"  ("name")[0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX  "index_thing_images_on_image_id_and_thing_id" ON "thing_images"  ("image_id", "thing_id")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20170102235241"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Migrating to CreateRoles (20170130051702)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.5ms)[0m  CREATE TABLE "roles" ("id" serial primary key, "user_id" integer NOT NULL, "role_name" character varying NOT NULL, "mname" character varying, "mid" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (14.2ms)[0m  [1mCREATE  INDEX  "index_roles_on_user_id" ON "roles"  ("user_id")[0m
+  [1m[35m (1.0ms)[0m  CREATE  INDEX  "index_roles_on_mname" ON "roles"  ("mname")
+  [1m[36m (1.0ms)[0m  [1mCREATE  INDEX  "index_roles_on_mid" ON "roles"  ("mid")[0m
+  [1m[35m (1.6ms)[0m  ALTER TABLE "roles" ADD CONSTRAINT "fk_rails_ab35d699f0"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+
+  [1m[36m (1.0ms)[0m  [1mCREATE  INDEX  "index_roles_on_mname_and_mid" ON "roles"  ("mname", "mid")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170130051702"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateTags (20170210115912)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "tags" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170210115912"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateThingTags (20170210120213)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "thing_tags" ("id" serial primary key, "thing_id" integer, "tag_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE  INDEX  "index_thing_tags_on_thing_id" ON "thing_tags"  ("thing_id")
+  [1m[36m (0.8ms)[0m  [1mCREATE  INDEX  "index_thing_tags_on_tag_id" ON "thing_tags"  ("tag_id")[0m
+  [1m[35m (1.8ms)[0m  ALTER TABLE "thing_tags" ADD CONSTRAINT "fk_rails_8ced5dddbb"
+FOREIGN KEY ("thing_id")
+  REFERENCES "things" ("id")
+
+  [1m[36m (1.4ms)[0m  [1mALTER TABLE "thing_tags" ADD CONSTRAINT "fk_rails_861d8b15e4"
+FOREIGN KEY ("tag_id")
+  REFERENCES "tags" ("id")
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170210120213"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddPointToImages (20170304202140)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "images" ADD "lng" float[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "images" ADD "lat" float
+  [1m[36m (2.2ms)[0m  [1mCREATE  INDEX  "index_images_on_lng_and_lat" ON "images"  ("lng", "lat")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170304202140"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (20.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'foos'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'images'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'roles'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'tags'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'thing_images'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.0ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'thing_tags'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'things'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.5ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+
+
+Started GET "/" for ::1 at 2017-11-12 13:07:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UiController#index as HTML
+  Rendered ui/index.html.erb (4881.2ms)
+Completed 200 OK in 5164ms (Views: 4949.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-199b79dde817521b7da06971497e6b10281dc778ce9a148a106a4863229b3804.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/spa-demo/authn.self-6b5b16b055f6e2520494c95ccf0817511702da54430e9387f11c065624797d18.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/spa-demo/layout.self-d25c4924f1b43a25b87675c444b8a38916f40b3ca43932573ce911076517a591.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/spa-demo/subjects.self-3b0bf893e05a03285562d9c7e4e989d8fb84cb7f60de9d1136265b57ab910404.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/spa-demo/find_by_tag.self-0454e971b67855abf4f55324fbdd761e1571c20edd86fe186c44226e3501c4d8.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/spa-demo.self-2c94351bbf49d4f12ace79a57649ed100e09fd2f712fc1f795a3177b793a7cd5.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/jquery2.self-25ca496239ae8641a09627c8aace5863e7676e465fbb4ce81bc7eb78c4d15627.js?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/bootstrap/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/ui-cropper.self-0752c57baf103f523ab70485b5d4508300cef21050d0f22bf794775f928eb9fe.css?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/angular/angular.self-55459d3bd6c820b82a84405c655eb594e8f13110f3bfb3c25711a3cc3510e952.js?body=1" for ::1 at 2017-11-12 13:07:21 +0100
+
+
+Started GET "/assets/angular-ui-router.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/angular.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/angular-resource.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/angular-ui-router/angular-ui-router.self-8d1a567702decda3c48178b8db54b5b9dbe23f0f7b137aca5d7f2fa843efc7e1.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/angular-cookie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/angular-resource/angular-resource.self-5152cd6c6485841422d7562f1e4ba85eaf77ae70888988eee8155e8491754b87.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ng-token-auth.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/angular-cookie/angular-cookie.self-0f7fb19686473accc00652b4579b0f6879dd9aaa777787de5643571af2251394.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ng-file-upload-shim.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ng-token-auth/ng-token-auth.self-4b8c7ec1d6f9f0abdc62230ad420e1ba91a828406b144a70182b39676ac79e50.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ng-file-upload.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ng-file-upload-shim/ng-file-upload-shim.self-577f9e4dd86caa5f528ab6b1262125e7c916552e136e13b4e6b17b139f338671.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ui-cropper.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ng-file-upload/ng-file-upload.self-49489246d63a5d6be3390bf224092c8d04da729ddb16de1bec1a188e4119b6c7.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/app.router.self-c2a037b140ec6403d9622542f965a6e1e52b9e98f931c180f0cc121ab3bf9f7c.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/ui-cropper/ui-cropper.self-8d716a8cdedab3f1bcd686bbe5f0c8d53e24abd8e4d1ecf4fe094398439a72dc.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/authn.module.self-94201ad4d145f8e9c34630710544feb32db4d7c7b4144da391ea0f874e407bbb.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/app.module.self-fcad275ac4ee95243ffab2f985cbfd145f993a881c8d3701bfcb3a50d445177e.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/authn.service.self-9dc407bcdecb7d56647f04af8fa7158e85f56be7fe499904cbb363399d6536bc.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/config/config.module.self-fb61978cab654da6791e6cdeb3b8ac130a9749f0c79bfc2b85619e5d830c5cf3.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/checkme.service.self-309c80d2d46044a1b926ed0c24b6775c1e7e992f01986dd12dd32cf3f95c234c.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/authn.config.self-5fdf43a46e96fb3687a5f316d06ba014a42fba4444b7f6eb536af318727a6041.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/authn_session/authn_session.component.self-9acfbc9477450960945c47de5069c780fe1af925762d721b8643aa4f662560d7.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/whoami.service.self-cad8f30e795e9e0f517b27e443271727158c373463eb5d5ff2666bb7e103226d.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authz/authz.module.self-19d7bf68079b93b3d25412ddc870beb58376c53022540536c4a083a19358f4b1.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/signup/signup.component.self-11fbe22a138b930f01508b8f0a9fb00815af23526b7a2eb809a858c1dc4b3c91.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authz/base_policy.service.self-9b35e17fedebbd3d5831b833938a633ec3dbbf9444a6eab7428f63edc3c6db2f.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authn/authn_check/authn_check.directive.self-fc694ac3a8a9aca7f446f5896df1fbe379eb10e59100076c12176078859f07cb.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/geocoder.service.self-1c054b376401e3ee48829d70531a524c4326a5c2da258e9166b3c53ee1a9d052.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/authz/authz.service.self-26dff7d0804180011dcc0d137365d8f9f16b816732a14a166c84795c1e9755a1.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/my_location.service.self-ab82dff1f3b362d2c56e9fe8548a0fd3129d129c4108c4034f0fe38b0488408a.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/geoloc.module.self-894c5fc3b4bbb249ef644c17925097001d6a3f3662045440e49905bcf3e68f65.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin_selector.component.self-0a9ea91e8e0fe9b1bd8d6302a6bbf278b0b2b2cc8a964935269c3e6b615add77.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/map.service.self-3be34a852c90ecbd8bdd9af7fb6014589b8ab1f6ab870e8ca26794d37419f2a6.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/layout/image_query_size.service.self-e757bac824ec4dfad4c77a993d07f917a61da72d726874719b5d90c59a0e0994.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin.service.self-e4ae183374fbc7e20e379c169bba94779d14dc1c3a77c8b6aba31ccc749e5221.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/layout/image_loader/data_utils.service.self-657a2bc91cdf63a4a88ed42089a649279e783737750f1cadf256a4b8db3075c6.js?body=1" for ::1 at 2017-11-12 13:07:22 +0100
+
+
+Started GET "/assets/spa-demo/layout/layout.module.self-5816b38d8cbf0dcf6551cdfaaa99a17bd9db0a9c05574592f75bb8b5927ab623.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/layout/image_viewer/image_viewer.component.self-bc8b8dc39d70bf551a70df87a42e0aa7b09c65f5df38615b2c2932a4aeab08ed.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/layout/navbar/navbar.component.self-91b96ad395d7039934ddd70a99d5b9bc024cfd2221150838c32adaa3de00d723.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/layout/areas/areas.component.self-9d434168e15e1135faf8cbe5654c81163c2c141efa5b3dc549c9cdf67e2f7d07.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/layout/image_loader/image_loader.component.self-c5b319fc522332f3fb6e338f33522f9512c8877fb5964c3cca81717293f9311b.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/foos/foos.service.self-5989b1d2a164d465690373af54af0fd973d4d454714698a2d54d3bb75d6239cf.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/layout/tabs/tabs.component.self-ea887ae8366b9dd927434f670d81afcfc3ee6d7b035961d033b17b190070ec85.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/foos/foos.directive.self-8b7814c79079f85b4c514ef2f5fb6fd5d1db807fe7974ce79092df3e23bd842f.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/foos/foos.module.self-0fffb80852ad598ea5d565434a30d7dd9183f489c6ac4b3e93b7392c91d89665.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/images/images.service.self-325a6daad24381f9f8ff5256702d9edb28f66c0edd4469611a733d8de7708f7a.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/foos/foos.controller.self-e375756f2fbef4fa2ce046b0f9bba4329f581f552eb67f789e64ed7232254c8e.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/images/image_things.service.self-cc805716954e1b8ceb2f6138cf8a8a7f41cdfa25b9440c9f4f2dd8d4e44b3efe.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/subjects.module.self-5fa291abf743e82a38b325fa8d542fe12ed0240d629bb8360ed6cb07810380ec.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/images/images.component.self-74860c01a60d137694fe6d7ba4bdb5327dcdf1c3dbebbf42129f6a54ebb9f46e.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/images/images_authz.service.self-ed5dec88bc1a374d41ddc373ae082ddf2dc9ae970d6d7579dd479e57fdcb1b52.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/things.service.self-2467671b4b30f4fbd8e469cc5d0fbcfa9f3a397022de1ed6aaff8e883db4a1b8.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/images/image_linkable_things.service.self-ff3701d9df0c8e18d3b5b7503b0d19041fc7ba249bae1a8612cb584a91494a8e.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/images/images_authz.directive.self-5148f415b153cbe7676f5a3ab05adba2cef9eea1a34660e039dc891632cafac1.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/things_authz.service.self-ff1b77e2ad171e6fe7409033809e8bf77570943aef807dd4ca0d5c0290845e04.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/thing_images.service.self-bb793309bd4da75d8e9b6948908938ecd9820c49bc7b8dd0831779e3cd8ea315.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/tags/tags.service.self-060a168ba76a815fdf22c85adb2b9b61b4d017016f0fcbd4920af824fa949ae1.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/things_authz.directive.self-d067ff64976ea5d39e93c5c836f5e7fe3f7c715aa96419d8a3786d9048a759ba.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/tags/tags_authz.service.self-8cbc53b79bf8fbe9e768c31e681515868c1fa6e297503e7103054449e4c4637e.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/things.component.self-79251c552a62c3835bfdad90b5a055bc52f7c27c2f6220a8ac708402034be578.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_subjects/current_subjects.service.self-57aafd2e7755adc5dbc37f20f68e7c48f919a2ddcfb18341a7213a48a3544181.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/tags/tags.component.self-b191cf814d2f9572b6961652c9ce9a8bae45f0b5d7426f93e7fedad10200b703.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_images/current_images.component.self-627332e78ca92cf39b3f96f7d3b1e20e62103d9e531351029ca9c96a10d55c3f.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_tags/current_tags.component.self-fb76dab4f0a2065d4fbb8e676da8de01f4836a28f429743ece16870a4cd8a9fa.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo.self-d29e8c720b1731288c66ea26d1c2f7503f153f6762c38642f43d2c01369f39be.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_subjects/current_subjects.component.self-d0bee8b19ff9557435ecbf5ee85bd26e50e3cee6ea1d6b77c5e84573e467c7aa.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_things/current_things.component.self-3f8a37d91a1810fd1580a200c50d9d19b7cb161b4088ed7f492c62be95bb90e7.js?body=1" for ::1 at 2017-11-12 13:07:23 +0100
+
+
+Started GET "/assets/spa-demo/layout/navbar/navbar-ad545c8dce7a952ed56a6009af4dda8bbe096d055dd789d15809f06cb7e7137e.html" for ::1 at 2017-11-12 13:07:24 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/current_origin/current_origin_selector-4e5620371d52202d514590fd0f99333b8c3c61fc81e44e51397650c6107ba2e6.html" for ::1 at 2017-11-12 13:07:24 +0100
+
+
+Started GET "/assets/spa-demo/authn/authn_session/authn_session-febc3c956a8a908d42a91c083d0e8ce6ca7bf3bbe676f7c288cd2adaabd9e8f4.html" for ::1 at 2017-11-12 13:07:24 +0100
+
+
+Started POST "/auth/sign_in" for ::1 at 2017-11-12 13:07:32 +0100
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"bilha360@yahoo.com", "password"=>"[FILTERED]", "session"=>{"email"=>"bilha360@yahoo.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: session
+Unpermitted parameter: session
+  [1m[35mUser Load (20.4ms)[0m  SELECT  "users".* FROM "users" WHERE (email = 'bilha360@yahoo.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 57ms (Views: 19.8ms | ActiveRecord: 23.2ms)
+
+
+Started GET "/api/geocoder/positions?lat=45.54164&lng=11.5164137" for ::1 at 2017-11-12 13:07:33 +0100
+Processing by GeocoderController#positions as JSON
+  Parameters: {"lat"=>"45.54164", "lng"=>"11.5164137"}
+Google geocoding. latlng: [45.54164, 11.5164137], args []
+Google geocoding. Result: %7B%0A+++%22results%22+%3A+%5B%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2228%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2228%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22street_number%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Via+Niccol%C3%B2+Paganini%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Via+N.+Paganini%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22route%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Provincia+di+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Via+N.+Paganini%2C+28%2C+36100+Vicenza+VI%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5414891%2C%0A+++++++++++++++%22lng%22+%3A+11.5161351%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22ROOFTOP%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.5428380802915%2C%0A++++++++++++++++++%22lng%22+%3A+11.5174840802915%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.5401401197085%2C%0A++++++++++++++++++%22lng%22+%3A+11.5147861197085%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJsztmxloxf0cRRPx00aEmNPI%22%2C%0A+++++++++%22types%22+%3A+%5B+%22street_address%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6039311%2C%0A++++++++++++++++++%22lng%22+%3A+11.6108189%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4965127%2C%0A++++++++++++++++++%22lng%22+%3A+11.4910099%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5454787%2C%0A+++++++++++++++%22lng%22+%3A+11.5354214%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6039311%2C%0A++++++++++++++++++%22lng%22+%3A+11.6108189%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4965127%2C%0A++++++++++++++++++%22lng%22+%3A+11.4910099%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJb1HS5H0xf0cRvECEC5PAjmo%22%2C%0A+++++++++%22types%22+%3A+%5B+%22locality%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.60886%2C%0A++++++++++++++++++%22lng%22+%3A+11.615423%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.48318099999999%2C%0A++++++++++++++++++%22lng%22+%3A+11.48647%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5361903%2C%0A+++++++++++++++%22lng%22+%3A+11.5610445%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.60886%2C%0A++++++++++++++++++%22lng%22+%3A+11.615423%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.48318099999999%2C%0A++++++++++++++++++%22lng%22+%3A+11.48647%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJOw86zn8xf0cRAH2gaooJBxw%22%2C%0A+++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Vicenza%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22short_name%22+%3A+%2236100%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22postal_code%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%2236100+Vicenza%2C+Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6088582%2C%0A++++++++++++++++++%22lng%22+%3A+11.6154534%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4831738%2C%0A++++++++++++++++++%22lng%22+%3A+11.4864984%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.5361903%2C%0A+++++++++++++++%22lng%22+%3A+11.5610445%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.6088582%2C%0A++++++++++++++++++%22lng%22+%3A+11.6154534%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.4831738%2C%0A++++++++++++++++++%22lng%22+%3A+11.4864984%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJOw86zn8xf0cRcFKRFYcJBwQ%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_3%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Province+of+Vicenza%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22VI%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Province+of+Vicenza%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.0133136%2C%0A++++++++++++++++++%22lng%22+%3A+11.8361814%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.2553201%2C%0A++++++++++++++++++%22lng%22+%3A+11.1358708%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.6983995%2C%0A+++++++++++++++%22lng%22+%3A+11.5661465%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.0133136%2C%0A++++++++++++++++++%22lng%22+%3A+11.8361814%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+45.2553201%2C%0A++++++++++++++++++%22lng%22+%3A+11.1358708%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJ6bkyp9bKeEcR4H6QFYcJBwM%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_2%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22Veneto%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++++++++%7D%2C%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Veneto%2C+Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.6804752%2C%0A++++++++++++++++++%22lng%22+%3A+13.1009766%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+44.791218%2C%0A++++++++++++++++++%22lng%22+%3A+10.6229634%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+45.76233329999999%2C%0A+++++++++++++++%22lng%22+%3A+11.690976%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+46.6804752%2C%0A++++++++++++++++++%22lng%22+%3A+13.1009766%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+44.791218%2C%0A++++++++++++++++++%22lng%22+%3A+10.6229634%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJd7cEzPHXeEcRcHyQFYcJBwE%22%2C%0A+++++++++%22types%22+%3A+%5B+%22administrative_area_level_1%22%2C+%22political%22+%5D%0A++++++%7D%2C%0A++++++%7B%0A+++++++++%22address_components%22+%3A+%5B%0A++++++++++++%7B%0A+++++++++++++++%22long_name%22+%3A+%22Italy%22%2C%0A+++++++++++++++%22short_name%22+%3A+%22IT%22%2C%0A+++++++++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++++++++%7D%0A+++++++++%5D%2C%0A+++++++++%22formatted_address%22+%3A+%22Italy%22%2C%0A+++++++++%22geometry%22+%3A+%7B%0A++++++++++++%22bounds%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+47.092%2C%0A++++++++++++++++++%22lng%22+%3A+18.7975999%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+35.4897%2C%0A++++++++++++++++++%22lng%22+%3A+6.6267201%0A+++++++++++++++%7D%0A++++++++++++%7D%2C%0A++++++++++++%22location%22+%3A+%7B%0A+++++++++++++++%22lat%22+%3A+41.87194%2C%0A+++++++++++++++%22lng%22+%3A+12.56738%0A++++++++++++%7D%2C%0A++++++++++++%22location_type%22+%3A+%22APPROXIMATE%22%2C%0A++++++++++++%22viewport%22+%3A+%7B%0A+++++++++++++++%22northeast%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+47.092%2C%0A++++++++++++++++++%22lng%22+%3A+18.7975999%0A+++++++++++++++%7D%2C%0A+++++++++++++++%22southwest%22+%3A+%7B%0A++++++++++++++++++%22lat%22+%3A+35.4897%2C%0A++++++++++++++++++%22lng%22+%3A+6.6267201%0A+++++++++++++++%7D%0A++++++++++++%7D%0A+++++++++%7D%2C%0A+++++++++%22place_id%22+%3A+%22ChIJA9KNRIL-1BIRb15jJFz1LOI%22%2C%0A+++++++++%22types%22+%3A+%5B+%22country%22%2C+%22political%22+%5D%0A++++++%7D%0A+++%5D%2C%0A+++%22status%22+%3A+%22OK%22%0A%7D%0A
+Completed 200 OK in 1439ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/spa-demo/pages/signup_page-b1638fd4276306af4f690eb811ce17b344dbb7e45fbf040296585dd07072c18e.html" for ::1 at 2017-11-12 13:07:40 +0100
+
+
+Started GET "/assets/spa-demo/authn/signup/signup-ee18d84ab328fa5c89abd4cc8a93b46aceda8c9b979285e6bb6065d17746e507.html" for ::1 at 2017-11-12 13:07:40 +0100
+
+
+Started POST "/auth" for ::1 at 2017-11-12 13:08:13 +0100
+Processing by DeviseTokenAuth::RegistrationsController#create as HTML
+  Parameters: {"email"=>"josembi@example.com", "name"=>"Josembi", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "confirm_success_url"=>"http://localhost:3000/#/signup", "config_name"=>"default", "registration"=>{"email"=>"josembi@example.com", "name"=>"Josembi", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "confirm_success_url"=>"http://localhost:3000/#/signup", "config_name"=>"default"}}
+Unpermitted parameters: confirm_success_url, config_name, registration
+Unpermitted parameters: confirm_success_url, config_name, registration
+Unpermitted parameters: confirm_success_url, config_name, registration
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2  [["provider", "email"], ["email", "josembi@example.com"]]
+  [1m[36mSQL (19.7ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "name", "tokens", "uid", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "josembi@example.com"], ["encrypted_password", "$2a$10$TpNka1IvgK4WtPRQIdrRo.MaDeezEiHL8FQnVcf6FMCJVCO8LHWoy"], ["name", "Josembi"], ["tokens", "{}"], ["uid", "josembi@example.com"], ["created_at", "2017-11-12 12:08:13.490603"], ["updated_at", "2017-11-12 12:08:13.490603"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (20.7ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$0.Ei2qpGRRXWaiSnK79IoeN6NtJ8szu1dgA9T71H.g1Lm9A/o6Vqi\",\"expiry\":1511698093}}"], ["updated_at", "2017-11-12 12:08:13.598832"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 1]]
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$slLXyuodp/4X8AvLpvLaYuy/Y.c13JcXE2Mo7Ho0M/adTP3HLXOmy\",\"expiry\":1511698093,\"last_token\":\"$2a$10$0.Ei2qpGRRXWaiSnK79IoeN6NtJ8szu1dgA9T71H.g1Lm9A/o6Vqi\",\"updated_at\":\"2017-11-12T13:08:13.687+01:00\"}}"], ["updated_at", "2017-11-12 12:08:13.689087"], ["id", 1]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 321ms (Views: 0.3ms | ActiveRecord: 45.2ms)
+
+
+Started GET "/assets/spa-demo/pages/subjects_page-76becdc945ee98bc49da8bf92f471487028754b26e3380116c9739ec7b653c20.html" for ::1 at 2017-11-12 13:08:13 +0100
+
+
+Started GET "/assets/spa-demo/layout/areas/areas-45971bb1612786dff04e16f24d7bb7b0879eda0e40650ed944ef3a49bd5f1f69.html" for ::1 at 2017-11-12 13:08:13 +0100
+
+
+Started GET "/assets/spa-demo/layout/areas/area-ddcba5b9ee7dcdd3d6faa7a856059182ba333878bc6f28e3d718e7fdc8edf994.html" for ::1 at 2017-11-12 13:08:13 +0100
+
+
+Started GET "/assets/spa-demo/layout/tabs/tabs-ae22c495dbfb917966bdc4a4939c8134c8058c39d6a6b37dcbe581cd6627edca.html" for ::1 at 2017-11-12 13:08:13 +0100
+
+
+Started GET "/assets/spa-demo/layout/tabs/tab-ca64ac655f93bea43770de6133d6373f585d80bb96647aa695c53e630733e299.html" for ::1 at 2017-11-12 13:08:14 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_things/current_things-25d9e018e4fd7262fd79bc02fc9731841a43de0cc6e7519f632c3d09547d4806.html" for ::1 at 2017-11-12 13:08:14 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_images/current_images-c3753bab2a231eada127c95394e4d053ead90a31ff2bc130b30f06e10868eaf9.html" for ::1 at 2017-11-12 13:08:14 +0100
+
+
+
+
+Started GET "/assets/spa-demo/subjects/current_things/current_thing_info-2e24ad465c87f9b898c8e540dd72f2317eb3bc1e2fd98a79b61b8fa9ebb12028.html" for ::1 at 2017-11-12 13:08:14 +0100
+Started GET "/assets/spa-demo/subjects/current_images/current_image_viewer-6e2b1180de5e34285509998cd11d2573db371feeaab5cd7665b02c8dd1f405bf.html" for ::1 at 2017-11-12 13:08:14 +0100
+
+
+Started GET "/api/subjects?distance=true&lat=45.5414891&lng=11.5161351&order=ASC" for ::1 at 2017-11-12 13:08:14 +0100
+
+
+Started GET "/authn/whoami" for ::1 at 2017-11-12 13:08:14 +0100
+Processing by AuthnController#whoami as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "josembi@example.com"]]
+Processing by ThingImagesController#subjects as JSON
+  Parameters: {"distance"=>"true", "lat"=>"45.5414891", "lng"=>"11.5161351", "order"=>"ASC"}
+  [1m[36m (18.3ms)[0m  [1mSELECT "roles"."role_name", "roles"."mname" FROM "roles" WHERE "roles"."user_id" = $1 AND (mid is null)[0m  [["user_id", 1]]
+  Rendered authn/whoami.json.jbuilder (52.8ms)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 1]]
+  [1m[35m (86.7ms)[0m  select max(modified) as last_modified from (
+select max(updated_at) as modified from things
+ union
+select max(updated_at) as modified from images
+ union
+select max(updated_at) as modified from thing_images
+) as x
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$slLXyuodp/4X8AvLpvLaYuy/Y.c13JcXE2Mo7Ho0M/adTP3HLXOmy\",\"expiry\":1511698093,\"last_token\":\"$2a$10$0.Ei2qpGRRXWaiSnK79IoeN6NtJ8szu1dgA9T71H.g1Lm9A/o6Vqi\",\"updated_at\":\"2017-11-12T13:08:14.784+01:00\"}}"], ["updated_at", "2017-11-12 12:08:14.785792"], ["id", 1]]
+  [1m[36m (43.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 372ms (Views: 58.0ms | ActiveRecord: 64.7ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2017-11-12 13:08:14 +0100
+  [1m[36mThingImage Load (100.0ms)[0m  [1mSELECT thing_images.*, images.id as image_id, images.lng, images.lat, things.name as thing_name, images.caption as image_caption, -1.0 as distance FROM "thing_images" right outer join images on images.id = thing_images.image_id left outer join things on things.id = thing_images.thing_id WHERE (images.lat IS NOT NULL AND images.lng IS NOT NULL)  ORDER BY 
+          (ACOS(least(1,COS(0.7948489310561091)*COS(0.2009944745994864)*COS(RADIANS(images.lat))*COS(RADIANS(images.lng))+
+          COS(0.7948489310561091)*SIN(0.2009944745994864)*COS(RADIANS(images.lat))*SIN(RADIANS(images.lng))+
+          SIN(0.7948489310561091)*SIN(RADIANS(images.lat))))*3963.1899999999996)
+          ASC[0m
+  Rendered thing_images/index.json.jbuilder (5.8ms)
+Completed 200 OK in 509ms (Views: 89.0ms | ActiveRecord: 187.8ms)
+
+
+Started GET "/api/subjects?distance=true&lat=45.5414891&lng=11.5161351&order=ASC&subject=thing" for ::1 at 2017-11-12 13:08:15 +0100
+Processing by ThingImagesController#subjects as JSON
+  Parameters: {"distance"=>"true", "lat"=>"45.5414891", "lng"=>"11.5161351", "order"=>"ASC", "subject"=>"thing"}
+  [1m[35m (0.8ms)[0m  select max(modified) as last_modified from (
+select max(updated_at) as modified from things
+ union
+select max(updated_at) as modified from images
+ union
+select max(updated_at) as modified from thing_images
+) as x
+  [1m[36mThingImage Load (1.0ms)[0m  [1mSELECT thing_images.*, images.id as image_id, images.lng, images.lat, things.name as thing_name, images.caption as image_caption, -1.0 as distance FROM "thing_images" right outer join images on images.id = thing_images.image_id left outer join things on things.id = thing_images.thing_id WHERE (images.lat IS NOT NULL AND images.lng IS NOT NULL) AND "thing_images"."priority" = $1  ORDER BY 
+          (ACOS(least(1,COS(0.7948489310561091)*COS(0.2009944745994864)*COS(RADIANS(images.lat))*COS(RADIANS(images.lng))+
+          COS(0.7948489310561091)*SIN(0.2009944745994864)*COS(RADIANS(images.lat))*SIN(RADIANS(images.lng))+
+          SIN(0.7948489310561091)*SIN(RADIANS(images.lat))))*3963.1899999999996)
+          ASC[0m  [["priority", 0]]
+  Rendered thing_images/index.json.jbuilder (0.1ms)
+Completed 200 OK in 13ms (Views: 1.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/spa-demo/layout/image_viewer/image_viewer-be2bbb01fc8ab65297909c228423a1f0e2563bf5794c3e1b3f426ff9fa562d96.html" for ::1 at 2017-11-12 13:08:15 +0100
+
+
+Started GET "/assets/spa-demo/geoloc/markers/marker-red-32x44-9c7ac81f031105cf64436e4cc95ddfab1e541975bf90571237c1b3b9adb4a689.png" for ::1 at 2017-11-12 13:08:15 +0100
+
+
+Started GET "/assets/spa-demo/pages/things_page-ca7d9053d1116f3b00bae5eef604dcaf374178509e877d9ebf30b9a404681ab4.html" for ::1 at 2017-11-12 13:09:01 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/thing_editor-034fdac61599b911f523f6b8a1ec522f8282475ed01b6ef8b8da672115f6937c.html" for ::1 at 2017-11-12 13:09:01 +0100
+
+
+Started GET "/assets/spa-demo/subjects/things/thing_selector-d87bfe7d4f66fe608850148c6025235d180fcadb004c4d297db0366935ba0ecf.html" for ::1 at 2017-11-12 13:09:01 +0100
+
+
+Started GET "/api/things" for ::1 at 2017-11-12 13:09:02 +0100
+Processing by ThingsController#index as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "josembi@example.com"]]
+  [1m[36mRole Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."user_id" = $1 AND "roles"."role_name" = $2 LIMIT 1[0m  [["user_id", 1], ["role_name", "admin"]]
+  [1m[35mThing Load (0.8ms)[0m  SELECT Things.*, r.role_name FROM "things" join Roles r on r.mname='Thing' and r.mid=Things.id and r.user_id =1
+  Rendered things/index.json.jbuilder (0.5ms)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 1]]
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$6vHn6wf9iUztp3ppwYXMeuV/gSEM1ZRE4ePg17ql5JAunQGTRTiCm\",\"expiry\":1511698142,\"last_token\":\"$2a$10$slLXyuodp/4X8AvLpvLaYuy/Y.c13JcXE2Mo7Ho0M/adTP3HLXOmy\",\"updated_at\":\"2017-11-12T13:09:02.273+01:00\"}}"], ["updated_at", "2017-11-12 12:09:02.274813"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 200 OK in 132ms (Views: 26.9ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/things" for ::1 at 2017-11-12 13:09:10 +0100
+Processing by ThingsController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "josembi@example.com"]]
+  [1m[35mRole Exists (0.3ms)[0m  SELECT  1 AS one FROM "roles" WHERE "roles"."user_id" = $1 AND "roles"."role_name" = $2 LIMIT 1  [["user_id", 1], ["role_name", "admin"]]
+  [1m[36mThing Load (0.6ms)[0m  [1mSELECT Things.*, r.role_name FROM "things" join Roles r on r.mname='Thing' and r.mid=Things.id and r.user_id =1[0m
+  Rendered things/index.json.jbuilder (0.1ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 1]]
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$AmSxnCOIJvyBm4YGwKR1fut8Nkx9C3HKJsT0hgH/rTA0ISuNztxTi\",\"expiry\":1511698150,\"last_token\":\"$2a$10$6vHn6wf9iUztp3ppwYXMeuV/gSEM1ZRE4ePg17ql5JAunQGTRTiCm\",\"updated_at\":\"2017-11-12T13:09:10.872+01:00\"}}"], ["updated_at", "2017-11-12 12:09:10.873938"], ["id", 1]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 163ms (Views: 29.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/spa-demo/pages/authn_page-288994ebfeb68329d2faf25b68a3af8b47f653bdf7b94d270ff0fecb39691380.html" for ::1 at 2017-11-12 13:09:14 +0100
+
+
+Started GET "/authn/whoami" for ::1 at 2017-11-12 13:09:17 +0100
+Processing by AuthnController#whoami as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "josembi@example.com"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT "roles"."role_name", "roles"."mname" FROM "roles" WHERE "roles"."user_id" = $1 AND (mid is null)[0m  [["user_id", 1]]
+  Rendered authn/whoami.json.jbuilder (0.3ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 1]]
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$KKfhzPfBH.gIaoHpufpvK.wwtEGWUx/l5lPD8BIKo01vAcsvGh5Ty\",\"expiry\":1511698157,\"last_token\":\"$2a$10$AmSxnCOIJvyBm4YGwKR1fut8Nkx9C3HKJsT0hgH/rTA0ISuNztxTi\",\"updated_at\":\"2017-11-12T13:09:17.585+01:00\"}}"], ["updated_at", "2017-11-12 12:09:17.586312"], ["id", 1]]
+  [1m[36m (42.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 219ms (Views: 39.9ms | ActiveRecord: 44.1ms)
+
+
+Started GET "/authn/checkme" for ::1 at 2017-11-12 13:09:19 +0100
+Processing by AuthnController#checkme as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "josembi@example.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 1]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$KKfhzPfBH.gIaoHpufpvK.wwtEGWUx/l5lPD8BIKo01vAcsvGh5Ty\",\"expiry\":1511698157,\"last_token\":\"$2a$10$AmSxnCOIJvyBm4YGwKR1fut8Nkx9C3HKJsT0hgH/rTA0ISuNztxTi\",\"updated_at\":\"2017-11-12T13:09:19.303+01:00\"}}"], ["updated_at", "2017-11-12 12:09:19.304070"], ["id", 1]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Completed 200 OK in 71ms (Views: 1.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/authn/whoami" for ::1 at 2017-11-12 13:09:20 +0100
+Processing by AuthnController#whoami as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "josembi@example.com"]]
+  [1m[35m (0.2ms)[0m  SELECT "roles"."role_name", "roles"."mname" FROM "roles" WHERE "roles"."user_id" = $1 AND (mid is null)  [["user_id", 1]]
+  Rendered authn/whoami.json.jbuilder (0.2ms)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 1]]
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$KKfhzPfBH.gIaoHpufpvK.wwtEGWUx/l5lPD8BIKo01vAcsvGh5Ty\",\"expiry\":1511698157,\"last_token\":\"$2a$10$AmSxnCOIJvyBm4YGwKR1fut8Nkx9C3HKJsT0hgH/rTA0ISuNztxTi\",\"updated_at\":\"2017-11-12T13:09:21.020+01:00\"}}"], ["updated_at", "2017-11-12 12:09:21.021522"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 1.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/authn/checkme" for ::1 at 2017-11-12 13:09:23 +0100
+Processing by AuthnController#checkme as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "josembi@example.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 1]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$KKfhzPfBH.gIaoHpufpvK.wwtEGWUx/l5lPD8BIKo01vAcsvGh5Ty\",\"expiry\":1511698157,\"last_token\":\"$2a$10$AmSxnCOIJvyBm4YGwKR1fut8Nkx9C3HKJsT0hgH/rTA0ISuNztxTi\",\"updated_at\":\"2017-11-12T13:09:23.719+01:00\"}}"], ["updated_at", "2017-11-12 12:09:23.720622"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/spa-demo/pages/find_by_tag_page-32641b319aadce77613246caa388944bfef577e593935909b8676f1087c0b941.html" for ::1 at 2017-11-12 13:10:53 +0100
+
+
+Started GET "/assets/spa-demo/subjects/current_tags/current_tags-7f82baf39052f844ec81e6b74e164dce7acefc1a494720bf4ee2bcb2cbd77d2e.html" for ::1 at 2017-11-12 13:10:54 +0100
+
+
+Started GET "/api/tags" for ::1 at 2017-11-12 13:10:54 +0100
+Processing by TagsController#index as JSON
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "josembi@example.com"]]
+  [1m[36mTag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 1]]
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["tokens", "{\"mmSDRZI_6w9viI_A5lMCLQ\":{\"token\":\"$2a$10$lnzCHziSmpu0shjhcAgHlOXbh.Cj1NR96TKvEy37TbL/pZcplWqDe\",\"expiry\":1511698254,\"last_token\":\"$2a$10$KKfhzPfBH.gIaoHpufpvK.wwtEGWUx/l5lPD8BIKo01vAcsvGh5Ty\",\"updated_at\":\"2017-11-12T13:10:54.597+01:00\"}}"], ["updated_at", "2017-11-12 12:10:54.598771"], ["id", 1]]
+  [1m[36m (26.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 331ms (Views: 0.8ms | ActiveRecord: 32.6ms)
